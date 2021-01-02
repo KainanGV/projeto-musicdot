@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="./img/favicon.ico"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block"/>
-    <link rel="stylesheet" href="./css/reset.css"/> 
-    <link rel="stylesheet" href="./css/cabecalho.css" type="text/css"/>
+    <link rel="icon" href="./img/favicon.ico" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,&display=block" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/cabecalho.css" type="text/css" />
+    <link rel="stylesheet" href="./css/rodape.css" type="text/css" />
     <title>MusicDot</title>
 </head>
+
 <body>
 
     <!--Inicio do cabeçalho-->
     <header class="cabecalho">
         <!--Conteudo do cabeçalho da página-->
         <a href="./index.html">
-            <img class="cabecalho__logo" src="./img/musicdot-logo-header.1573157313.svg" title="Ir para a página iniciarl do MusicDot" alt="logo da MusicDot"/>
+            <img class="cabecalho__logo" src="./img/musicdot-logo-header.1573157313.svg" title="Ir para a página iniciarl do MusicDot" alt="logo da MusicDot" />
         </a>
         <nav>
             <ul class="cabecalho__menu">
@@ -35,34 +38,32 @@
     <!--Fim do main-->
 
     <!--Inicio do rodapé-->
-    <footer>
+    <footer class="rodape">
         <!--Conteudo do footer mais conhecido como o rodapé-->
-        <section>
+        <section class="rodape__secao rodape__secao--sobre">
 
-            <img src="./img/logo.svg" alt="logo svg da musicdot">
+            <img class="rodape__logo" src="./img/logo.svg" alt="logo svg da musicdot">
 
-            <p>
+            <p class="rodape__infos-empresa">
                 AOVS Sistemas de Informática S.A.
                 </br>
                 CNPJ 05.555.382/0001-33
-                <br>
-                Rua Vergueiro-São Paulo/SP
-                <br>
-                Telefone (11)4118-3319
+                <br> Rua Vergueiro-São Paulo/SP
+                <br> Telefone (11)4118-3319
             </p>
 
-            <ul>
-                <li>
+            <ul class="rodape__lista-midias-sociais">
+                <li class="rodape__item-midias-sociais">
                     <a href="#">
                         <img src="./img/footer-icone-facebook.svg" alt="icone do facebook">
                     </a>
                 </li>
-                <li>
+                <li class="rodape__item-midias-sociais">
                     <a href="#">
                         <img src="./img/footer-icone-youtube.svg" alt="icone do youtube">
                     </a>
                 </li>
-                <li>
+                <li class="rodape__item-midias-sociais">
                     <a href="#">
                         <img src="./img/footer-icone-instagram.svg" alt="icone do instagram">
                     </a>
@@ -70,39 +71,61 @@
             </ul>
         </section>
 
-        <section>
-            <h2>Cursos da MusicDot</h2>
+        <section class="rodape__secao rodape__secao--cursos">
+            <h2 class="rodape__titulo">Cursos da MusicDot</h2>
 
             <nav>
                 <ul>
-                    <li><a href="#">Cursos	de	Teclado	&	Piano</a></li>
-                    <li><a href="#">Cursos	de	Violão/Guitarra</a></li>
-                    <li><a href="#">Cursos	de	Baixo</a></li>
-                    <li><a href="#">Cursos	de	Bateria</a></li>
-                    <li><a href="#">Cursos	de	Percussão</a></li>
-                    <li><a href="#">Cursos	de	Canto</a></li>
-                    <li><a href="#">Cursos	de	Áudio</a></li>
-                    <li><a href="#">Cursos	de	Teoria</a></li>
-                    <li><a href="#">Cursos	de	Sopro</a></li>
-                    <li><a href="#">Cursos	de	Cordas</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Teclado & Piano</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Violão/Guitarra</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Baixo</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Bateria</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Percussão</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Canto</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Áudio</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Teoria</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Sopro</a></li>
+                    <li class="rodape_item-lista"><a href="#">Cursos de Cordas</a></li>
                 </ul>
             </nav>
         </section>
 
-        <section>
-            <h2>MusicDot</h2>
+        <section class="rodape__secao rodape__secao--links">
+            <h2 class="rodape__titulo">MusicDot</h2>
 
             <nav>
-                <ul><a href="#">Apostila</a></ul>
-                <ul><a href="#">E-book</a></ul>
-                <ul><a href="#">login</a></ul>
-                <ul><a href="#">Matricule-se</a></ul>
-                <ul><a href="#">Perguntas frequentes</a></ul>
-                <ul><a href="#">Para Escolas</a></ul>
-                <ul><a href="#">Contato</a></ul>
+                <ul>
+                    <li class="rodape-item-lista"><a href="#">Apostila</a></li>
+                    <li class="rodape-item-lista"><a href="#">E-book</a></li>
+                    <li class="rodape-item-lista"><a href="#">login</a></li>
+                    <li class="rodape-item-lista"><a href="#">Matricule-se</a></li>
+                    <li class="rodape-item-lista"><a href="#">Perguntas frequentes</a></li>
+                    <li class="rodape-item-lista"><a href="#">Para Escolas</a></li>
+                    <li class="rodape-item-lista"><a href="#">Contato</a></li>
+                </ul>
+
             </nav>
         </section>
+
+        <section class="rodape__secao rodape__secao--newsletter">
+            <h2 class="rodape__titulo">
+                Receba novidades e lançamentos
+            </h2>
+
+            <form action="#" method="get" class="form-newsletter">
+                <label for="form-newsletter__label" class="form-newsletter__label">
+                    Seu email pessoal
+                </label>
+                <input id="email-newsletter" name="email-newsletter" type="email" class="form-newslett
+                                                    er__campo">
+                <button type="submit" class="form-newsletter__botao">
+                    OK
+                </button>
+            </form>
+        </section>
+
     </footer>
     <!--Fim do rodapé-->
 </body>
+
 </html>
