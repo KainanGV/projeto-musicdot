@@ -1,6 +1,10 @@
 
 .cabecalho {
-    background-color: #2d5377ff;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    box-sizing: border-box;
+    
     color: #fff;
 
     text-align: center;
